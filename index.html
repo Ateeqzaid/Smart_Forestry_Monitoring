@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Forestry Monitoring Dashboard</title>
+    <!-- Favicon -->
+    <link rel="icon" href="tree.png" type="image/png">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #eef5ee;
+            margin: 20px;
+        }
+        h1 {
+            color: darkgreen;
+            text-align: center;
+        }
+        h2 {
+            color: #2f6b2f;
+            border-bottom: 2px solid green;
+        }
+        .section {
+            background-color: #ffffff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #cde6cd;
+        }
+        .healthy { color: green; font-weight: bold; }
+        .warning { color: orange; font-weight: bold; }
+        .danger { color: red; font-weight: bold; }
+        .medicinal { color: rgb(184, 59, 80); font-weight: bold; }
+        img {
+            margin: 10px 0;
+            border: 2px solid green;
+        }
+        .nav a {
+            margin-right: 15px;
+            font-weight: bold;
+            color: darkgreen;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Links -->
+    <div class="nav">
+        <a href="#health">Forest Health</a>
+        <a href="#species">Tree Species</a>
+        <a href="#environment">Environment</a>
+        <a href="#alerts">Alerts</a>
+    </div>
+
+    <h1>Smart Forestry Monitoring Dashboard</h1>
+    <p>This webpage represents a <b>smart forestry monitoring system</b> that simulates how <i>AI-based systems</i> help in monitoring forest health, tree species, and environmental conditions.</p>
+
+    <!-- Forest Health Section -->
+    <div class="section" id="health">
+        <h2>Forest Health Status</h2>
+        <p>The following table shows the <mark>health condition</mark> of trees monitored using smart sensors.</p>
+        <table>
+            <tr>
+                <th>Tree ID</th>
+                <th>Tree Type</th>
+                <th>Tree Health Status</th>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>Pine</td>
+                <td class="healthy">Healthy</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Oak</td>
+                <td class="warning">Needs Attention</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Mango</td>
+                <td class="danger">Critical</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>Neem</td>
+                <td class="medicinal">Air purification</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Tree Species Section -->
+    <div class="section" id="species">
+        <h2>Tree Species Monitoring</h2>
+        <p>The system monitors different tree species present in the forest.</p>
+        <ul>
+            <li>Pine Tree</li>
+            <li>Oak Tree</li>
+            <li>Mango Tree</li>
+            <li>Neem Tree</li>
+        </ul>
+        <img src="forest.jpg" alt="Forest Image" width="300">
+    </div>
+
+    <!-- Environmental Conditions -->
+    <div class="section" id="environment">
+        <h2>Environmental Conditions</h2>
+        <p>Environmental data collected from the forest area.</p>
+        <table>
+            <tr>
+                <th>Condition</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>Temperature</td>
+                <td>28°C</td>
+            </tr>
+            <tr>
+                <td>Humidity</td>
+                <td>65%</td>
+            </tr>
+            <tr>
+                <td>Air Quality</td>
+                <td>Good</td>
+            </tr>
+        </table>
+        <img src="trees.jpg" alt="Trees Image" width="300">
+    </div>
+
+    <!-- Alerts Section -->
+    <div class="section" id="alerts">
+        <h2>Recent Alerts and Maintenance Tasks</h2>
+        <ol>
+            <li>Water supply adjustment required</li>
+            <li>Pest control inspection</li>
+            <li>Soil quality check</li>
+        </ol>
+        <blockquote>
+            "Forests are the lungs of our planet ; protecting them is protecting life."
+        </blockquote>
+        <p>Learn more about forestry AI at:
+            <a href="https://www.fao.org/forestry" target="_blank">FAO Forestry</a>
+        </p>
+    </div>
+
+    <!-- Author Information -->
+    <address>
+        Created by: <b>Ahmad Shufqat</b><br>
+        Course: AI 101 - Applications of ICT<br>
+        Semester: 1st
+    </address>
+
+</body>
+</html>
